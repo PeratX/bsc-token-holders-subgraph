@@ -3,33 +3,12 @@ schema:
   file: ./schema.graphql
 dataSources:
   - kind: ethereum/contract
-    name: Stake
-    network: bsc
-    source:
-      address: "0x143364622fc215cACAF155ff9239369643126a55"
-      abi: ERC20
-      startBlock: 6159795
-    mapping:
-      kind: ethereum/events
-      apiVersion: 0.0.3
-      language: wasm/assemblyscript
-      entities:
-        - Token
-        - Holder
-      abis:
-        - name: ERC20
-          file: ./abis/ERC20.json
-      eventHandlers:
-        - event: Transfer(indexed address,indexed address,uint256)
-          handler: handleTransfer
-      file: ./src/mapping.ts
-  - kind: ethereum/contract
     name: Balancer
     network: bsc
     source:
       address: "0x143364622fc215cACAF155ff9239369643126a55"
       abi: ERC20
-      startBlock: 6159795
+      startBlock: 6063002
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
