@@ -10,4 +10,5 @@ type Token @entity {
   address: Bytes!
   totalSupply: BigInt!
   holders: BigInt!
+  burned: BigInt!
 }

@@ -6,9 +6,9 @@ dataSources:
     name: Stake
     network: bsc
     source:
-      address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      address: "0x143364622fc215cACAF155ff9239369643126a55"
       abi: ERC20
-      startBlock: 0
+      startBlock: 6159795
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
@@ -27,9 +27,9 @@ dataSources:
     name: Balancer
     network: bsc
     source:
-      address: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c"
+      address: "0x143364622fc215cACAF155ff9239369643126a55"
       abi: ERC20
-      startBlock: 0
+      startBlock: 6159795
     mapping:
       kind: ethereum/events
       apiVersion: 0.0.3
