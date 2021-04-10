@@ -9,4 +9,5 @@ type Token @entity {
   id: ID!
   address: Bytes!
   totalSupply: BigInt!
+  holders: BigInt!
 }

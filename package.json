@@ -4,10 +4,10 @@
   "scripts": {
     "codegen": "graph codegen",
     "build": "graph build",
-    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ maxaleks/token-holders",
-    "create-local": "graph create --node http://localhost:8020/ maxaleks/token-holders",
-    "remove-local": "graph remove --node http://localhost:8020/ maxaleks/token-holders",
-    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 maxaleks/token-holders"
+    "deploy": "graph deploy --node https://api.thegraph.com/deploy/ --ipfs https://api.thegraph.com/ipfs/ peratx/bsc-token-holders",
+    "create-local": "graph create --node http://localhost:8020/ peratx/bsc-token-holders",
+    "remove-local": "graph remove --node http://localhost:8020/ peratx/bsc-token-holders",
+    "deploy-local": "graph deploy --node http://localhost:8020/ --ipfs http://localhost:5001 peratx/bsc-token-holders"
   },
   "dependencies": {
     "@graphprotocol/graph-cli": "0.17.1",
